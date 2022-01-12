@@ -116,43 +116,6 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>com.youdao.luna</groupId>
-      <artifactId>kefont</artifactId>
-      <version>1.0.3</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.youdao.luna</groupId>
-      <artifactId>YDseniorTools</artifactId>
-      <version>0.0.2</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.youdao.luna</groupId>
-      <artifactId>YDToolBar</artifactId>
-      <version>1.3.4.5</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.youdao.luna</groupId>
-      <artifactId>YDCommonInfo</artifactId>
-      <version>1.2.6.9</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.youdao.luna</groupId>
-      <artifactId>YDMaterial</artifactId>
-      <version>1.0.9</version>
-      <type>aar</type>
-      <scope>compile</scope>
-      <exclusions>
-        <exclusion>
-          <artifactId>*</artifactId>
-          <groupId>*</groupId>
-        </exclusion>
-      </exclusions>
-    </dependency>
-    <dependency>
       <groupId>com.gyf.immersionbar</groupId>
       <artifactId>immersionbar</artifactId>
       <version>3.0.0</version>
@@ -174,6 +137,18 @@
       <groupId>me.jessyan</groupId>
       <artifactId>autosize</artifactId>
       <version>1.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.afollestad.material-dialogs</groupId>
+      <artifactId>lifecycle</artifactId>
+      <version>3.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.afollestad.material-dialogs</groupId>
+      <artifactId>core</artifactId>
+      <version>3.3.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
